@@ -3,7 +3,7 @@
 pragma solidity ^0.8.4;
 
 import "./IERC20.sol"; //import IERC20
-
+//32. 代币水龙头
 contract ERC20 is IERC20 {
 
     mapping(address => uint256) public override balanceOf;

@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "Receiver",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "SendToken",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "amountAllowed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requestTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "requestedAddress",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/应用/Faucet.sol": "Faucet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/应用/Faucet.sol": {
+			"keccak256": "0xacdbc74192036ed458213d3921b07f90dddd16f6391164c249a3973c816d2b70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e7a12466935516f19843a55b97336dfb0a5ca4c665f079020bba1ebd827ce9b",
+				"dweb:/ipfs/QmXJMeqy5XgbG1Q8vM91PbVRE4c6viGyoG7MoHxXp9jevs"
+			]
+		},
+		"lesson/应用/IERC20.sol": {
+			"keccak256": "0x265ade25d11dea5e4be15e767d99c50ac205a93e7038c3c4c3bfea2f6eb23acc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07330db57cfa8efe06fb7f512b8b18312dbd50234fea814d2b5974f8d544d035",
+				"dweb:/ipfs/QmX5ueSZzV5yGtqPW9ezKmhTaSwVFJaoWt55Z6fDPbmaQm"
+			]
+		}
+	},
+	"version": 1
+}

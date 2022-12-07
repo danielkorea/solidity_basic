@@ -298,7 +298,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lesson/应用/ERC20.sol": "ERC20"
+			"lesson/应用/Faucet.sol": "ERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -312,12 +312,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lesson/应用/ERC20.sol": {
-			"keccak256": "0x129eaf5d961c6e8529016c1e134cb1cc064b02efc1aa86f2bd7f6dba9c555326",
+		"lesson/应用/Faucet.sol": {
+			"keccak256": "0xacdbc74192036ed458213d3921b07f90dddd16f6391164c249a3973c816d2b70",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47ccb151ef3d1948d93a8ff102c39781b0dc192efaf8e7d25a5b9fdacc09127f",
-				"dweb:/ipfs/QmdrSjrwKKJEhjTVKX87jXbxuDxaenjavBxukVzUrSzGQX"
+				"bzz-raw://6e7a12466935516f19843a55b97336dfb0a5ca4c665f079020bba1ebd827ce9b",
+				"dweb:/ipfs/QmXJMeqy5XgbG1Q8vM91PbVRE4c6viGyoG7MoHxXp9jevs"
 			]
 		},
 		"lesson/应用/IERC20.sol": {
