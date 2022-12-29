@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Kill",
+						"name": "_kill",
+						"type": "address"
+					}
+				],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/Selfdesttuct.sol": "Helper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/Selfdesttuct.sol": {
+			"keccak256": "0xddac3d3263467e323b297cfc4307a90cf633bc6ecc003781725a0da37bb51f46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e3139dffbc9462deb145beb59d6f2fe9faeef15d3767aeb696f13eda334602a",
+				"dweb:/ipfs/QmR2jSnJ2ocpL4tWc1sJpmmk51ZLxgxjN5RB7vo5X6NcNA"
+			]
+		}
+	},
+	"version": 1
+}
