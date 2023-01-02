@@ -16,6 +16,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -46,11 +59,11 @@
 	},
 	"sources": {
 		"lesson/Selfdesttuct.sol": {
-			"keccak256": "0xddac3d3263467e323b297cfc4307a90cf633bc6ecc003781725a0da37bb51f46",
+			"keccak256": "0x33246ca7fcdaac3aac5cf33d8a288cc05f653b7ea6d7cac29aff0f227e6fe0a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e3139dffbc9462deb145beb59d6f2fe9faeef15d3767aeb696f13eda334602a",
-				"dweb:/ipfs/QmR2jSnJ2ocpL4tWc1sJpmmk51ZLxgxjN5RB7vo5X6NcNA"
+				"bzz-raw://189511da6cfca0870128d99bcebd4c5feab21efa015af8dedaa3ce77589fb307",
+				"dweb:/ipfs/Qmcb1nYz4Zdx1JSB16TPDtE2dteabdE5rVKazg9cUA7C53"
 			]
 		}
 	},

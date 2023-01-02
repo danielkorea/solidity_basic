@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "answer",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "view",
@@ -21,14 +21,20 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Kill",
-						"name": "_kill",
-						"type": "address"
+						"internalType": "string",
+						"name": "_word",
+						"type": "string"
 					}
 				],
-				"name": "kill",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "guess",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lesson/Selfdesttuct.sol": "Helper"
+			"lesson/HashWithKeccak256.sol": "GuessTheMagicWord"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lesson/Selfdesttuct.sol": {
-			"keccak256": "0x33246ca7fcdaac3aac5cf33d8a288cc05f653b7ea6d7cac29aff0f227e6fe0a5",
+		"lesson/HashWithKeccak256.sol": {
+			"keccak256": "0xb8abb15ec9c400ad9c6398951712f8c1dac13e9f98064bd84128bb172010066c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://189511da6cfca0870128d99bcebd4c5feab21efa015af8dedaa3ce77589fb307",
-				"dweb:/ipfs/Qmcb1nYz4Zdx1JSB16TPDtE2dteabdE5rVKazg9cUA7C53"
+				"bzz-raw://5b3312a3c9c8878b282d061c5b01f499d53e952c919d988f639ab2b11b564358",
+				"dweb:/ipfs/Qmdut8tDkroyNp39B6Hd4QyXv3hbVfWmSUZVYdTvmGiimA"
 			]
 		}
 	},
