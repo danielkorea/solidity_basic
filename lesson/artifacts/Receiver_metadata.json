@@ -31,6 +31,25 @@
 				"type": "event"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "Sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "Value",
+						"type": "uint256"
+					}
+				],
+				"name": "receivedCalled",
+				"type": "event"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
@@ -57,6 +76,10 @@
 				],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -87,11 +110,11 @@
 	},
 	"sources": {
 		"lesson/Call3.sol": {
-			"keccak256": "0xddf0dcc2e50cd0860c32c477e7e20a62751b0fa4f39a1dcf89db4a3571e380cb",
+			"keccak256": "0xaf8d114a92c82940fff2bf8c821bb6c72f27273e9a1d4b60432259697cc7e4cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://275883a5c0be48be479b508d19e714cb0dbce97671d229fbf1c370b01c52fe09",
-				"dweb:/ipfs/QmawZkJZdJZJmaohwwnnKtRSDXek1H3xLtsrJSrBce7eLG"
+				"bzz-raw://70b249e2b263e61b3f44301616d2b5d57ed63ed2762ce905a0476a6e83dd6b02",
+				"dweb:/ipfs/Qmauea2mQh2Hico9dXMxSjfrfZUcUkYWzwqkcJ7H23vBD8"
 			]
 		}
 	},
