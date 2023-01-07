@@ -30,6 +30,12 @@ contract TestMultiDelegatecall is MultiDelegatecall{
         emit Log(msg.sender,"func2",2);
         return 111;
     }
+    //委托调用存在漏洞，示例,（不要重复地计算主币数量或者委托调用不能接受主币也是一种解决方案)
+    mapping(address => uint) public balanceOf;//余额
+    function mint()external payable{
+        balanceOf(msg.sender) += msg.value;//发送一个ether ,结果会重复计算
+    }
+
  
 
 }
@@ -44,4 +50,10 @@ contract Helper{
         return abi.encodeWithSelector(TestMultiDelegatecall.func2.selector);//方法二
 
     }
+    function getMintData() external pure returns(bytes memory){
+       
+        return abi.encodeWithSelector(TestMultiDelegatecall.mint.selector);//方法二
+
+    }
+}
 }
