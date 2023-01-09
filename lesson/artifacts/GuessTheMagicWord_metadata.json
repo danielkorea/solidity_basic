@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "answer",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_word",
+						"type": "string"
+					}
+				],
+				"name": "guess",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/HashWithKeccak256.sol": "GuessTheMagicWord"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/HashWithKeccak256.sol": {
+			"keccak256": "0xb8abb15ec9c400ad9c6398951712f8c1dac13e9f98064bd84128bb172010066c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b3312a3c9c8878b282d061c5b01f499d53e952c919d988f639ab2b11b564358",
+				"dweb:/ipfs/Qmdut8tDkroyNp39B6Hd4QyXv3hbVfWmSUZVYdTvmGiimA"
+			]
+		}
+	},
+	"version": 1
+}

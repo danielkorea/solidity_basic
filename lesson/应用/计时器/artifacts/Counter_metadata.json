@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/应用/计时器/Counter.sol": "Counter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/应用/计时器/Counter.sol": {
+			"keccak256": "0x05b8e145694b29c21359fbd00147382ee087b07557da8170504af0d9ff737a10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dac6e22ca2f5973aeaa6c40dfd269bfcd98d4238561a71775328683e81e2bac6",
+				"dweb:/ipfs/QmXR1vUYqbJ2Df96DZozcsPmDjJd7SvC16ZfBgTczhmPrL"
+			]
+		}
+	},
+	"version": 1
+}

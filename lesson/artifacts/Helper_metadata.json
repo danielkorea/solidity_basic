@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Kill",
+						"name": "_kill",
+						"type": "address"
+					}
+				],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/Selfdesttuct.sol": "Helper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/Selfdesttuct.sol": {
+			"keccak256": "0x33246ca7fcdaac3aac5cf33d8a288cc05f653b7ea6d7cac29aff0f227e6fe0a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://189511da6cfca0870128d99bcebd4c5feab21efa015af8dedaa3ce77589fb307",
+				"dweb:/ipfs/Qmcb1nYz4Zdx1JSB16TPDtE2dteabdE5rVKazg9cUA7C53"
+			]
+		}
+	},
+	"version": 1
+}

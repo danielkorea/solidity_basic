@@ -10,6 +10,7 @@ pragma solidity ^0.8.4;
 contract C {
     uint public num;
     address public sender;
+    address public owner;//新增变量（代理合约中没有的变量）应添加到后面，如果是前面会有异常出现。
 
     function setVars(uint _num) public payable {
         num = _num;
@@ -35,5 +36,10 @@ contract B {
         (bool success, bytes memory data) = _addr.delegatecall(
             abi.encodeWithSignature("setVars(uint256)", _num)
         );
+        //第二种方法
+           (bool success, bytes memory data) = _addr.delegatecall(
+            abi.encodeWithSelector(c.setVars.Selector, _num)
+        );
+        require(success,"delegatecall failed");
     }
 }

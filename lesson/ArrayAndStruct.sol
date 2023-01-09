@@ -8,6 +8,7 @@ contract ArrayTypes {
     address[100] array3;
 
     // 可变长度 Array
+     uint[] public arr;
     uint[] array4;
     bytes1[] array5;
     address[] array6;
@@ -29,6 +30,20 @@ contract ArrayTypes {
         array4 = a;
         array4.push(3);
         return array4;
+    }
+    //新增删除数组元素
+   function remove(uint _index) public {
+        require(_index < arr.length, "index out of bound");
+
+        for (uint i = _index; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr.pop();
+    }
+    //通过替换最后一个元素然后pop实现删除下标元素
+    function replaceAndRemove(unit _index) public{
+        arr[_index]=arr[arr.length-1];
+        arr.pop();
     }
 }
 
