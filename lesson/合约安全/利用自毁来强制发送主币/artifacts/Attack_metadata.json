@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract EtherGame",
+						"name": "_etherGame",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/合约安全/利用自毁来强制发送主币/Selfdestruct.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/合约安全/利用自毁来强制发送主币/Selfdestruct.sol": {
+			"keccak256": "0x2bb7d11ed8d3f556d8dddd212353b71e86860f2ab787ebd0abe851a7da4dc30c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3addd722a39e258f411fd001161555e9e418f0711e5022ce2e97b299a831c8c1",
+				"dweb:/ipfs/QmUen7tXS3WBYKe4ofh4R9CXMyGJMkcEaifLrDB98dKL6c"
+			]
+		}
+	},
+	"version": 1
+}
