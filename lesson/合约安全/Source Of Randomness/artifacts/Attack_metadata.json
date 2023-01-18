@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract GuessTheRandomNumber",
+						"name": "guessTheRandomNumber",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/合约安全/Source Of Randomness/Random.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/合约安全/Source Of Randomness/Random.sol": {
+			"keccak256": "0x2a074b622bd0090c4b008877cdc1b1701e0f0c46e6761ec4717aabb1c6fe65c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d53c4bb1286e911b29077bd584f34eb4487be2dd81d2cda52037f76025952b17",
+				"dweb:/ipfs/QmQEc6PgpoCWML4NppegPKxponyiCnhgj2VeG9Zk45EoZK"
+			]
+		}
+	},
+	"version": 1
+}
