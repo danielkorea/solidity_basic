@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/合约安全/不安全的代理合约/Hack.sol": "Lib"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/合约安全/不安全的代理合约/Hack.sol": {
+			"keccak256": "0x243a218848aa803e55e51cd5f6bd2a498e5ba186b489a1846865302e8e08dad7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://559944bd63110ad03248d38f357a5ac7a1848552d85f0144cf0b9aa2642eb62f",
+				"dweb:/ipfs/QmU3zhuQY1VuXXkLxqBVvjJkPb2fywXHg6bKMuZTH3Bxsi"
+			]
+		}
+	},
+	"version": 1
+}

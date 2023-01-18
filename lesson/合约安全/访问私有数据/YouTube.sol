@@ -19,6 +19,8 @@ Contract deployed on Ropsten
 */
 //根据存储位置可以获取链上的数据
 /*
+truffle console --network ropsten
+
 slot 0 - count
 web3.eth.getStorageAt("0x3505a02BCDFbb225988161a95528bfDb279faD6b", 0, console.log)
 slot 1 - u16, isTrue, owner
