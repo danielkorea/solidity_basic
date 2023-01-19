@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/合约安全/隐藏恶意代码/HidingMaliciousCode.sol": "Bar"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/合约安全/隐藏恶意代码/HidingMaliciousCode.sol": {
+			"keccak256": "0x93e3ff1cbf42a29885a733e6f7abc7e291e057128f4c91b9ca947cccc9e066b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://faafed9c2e22d89fcfd123bd600dff39c879afb4ce5b518145c12aa01c3df776",
+				"dweb:/ipfs/QmcugCZr9YgNxoWfSb8RZEjFt74qF17TkSmcY67CbCNsdb"
+			]
+		}
+	},
+	"version": 1
+}
