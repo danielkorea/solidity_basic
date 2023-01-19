@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Wallet",
+						"name": "_wallet",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson/合约安全/网络钓鱼phishing/Phishing.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson/合约安全/网络钓鱼phishing/Phishing.sol": {
+			"keccak256": "0xdbf16fcb8b37220de1a5910d1f5adda36ae9236c4d3f03fc040f39136643f558",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d4d72b60ba68cd087a3cc9bd7973b897b6a27ac0aef1c7f9b26f8f2806887db",
+				"dweb:/ipfs/QmPMxkBpy1a33ksvf6MNu9uEawkczxpRpFJYy9atzcTE64"
+			]
+		}
+	},
+	"version": 1
+}
