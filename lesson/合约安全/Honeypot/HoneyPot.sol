@@ -27,14 +27,14 @@ exmaple code - Reentrancy and hiding code
 */
 contract Bank {
     mapping(address => uint) public balances;
-    Logger logger; 
+    Logger logger;
 //通过不同的logger to catch hacker,原理和隐藏恶意代码差不多
     constructor(Logger _logger) {
         logger = Logger(_logger);
     }
 
     function deposit() public payable {
-        balances[ms65、g.sender] += msg.value;
+        balances[msg.sender] += msg.value;
         logger.log(msg.sender, msg.value, "Deposit");
     }
 
